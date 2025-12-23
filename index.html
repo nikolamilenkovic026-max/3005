@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2685.2">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="en"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;meta charset="UTF-8" /&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;title&gt;3005&lt;/title&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>* {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin: 0;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 0;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>box-sizing: border-box;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>body {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: black;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>height: 100vh;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>justify-content: center;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>overflow: hidden;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-family: 'Courier New', monospace;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.glitch {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>position: relative;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: white;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 10vw;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>letter-spacing: 0.3em;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>animation: flicker 3s infinite;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.glitch::before,</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.glitch::after {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>content: "3005";</p>
+<p class="p1"><span class="Apple-converted-space">      </span>position: absolute;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>left: 0;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>top: 0;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>width: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>overflow: hidden;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: white;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: black;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.glitch::before {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>animation: glitchTop 2s infinite linear;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>clip-path: inset(0 0 50% 0);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>opacity: 0.8;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.glitch::after {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>animation: glitchBottom 2.5s infinite linear;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>clip-path: inset(50% 0 0 0);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>opacity: 0.8;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>@keyframes glitchTop {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>0% { transform: translate(0); }</p>
+<p class="p1"><span class="Apple-converted-space">      </span>20% { transform: translate(-2px, -2px); }</p>
+<p class="p1"><span class="Apple-converted-space">      </span>40% { transform: translate(-4px, 2px); }</p>
+<p class="p1"><span class="Apple-converted-space">      </span>60% { transform: translate(2px, -1px); }</p>
+<p class="p1"><span class="Apple-converted-space">      </span>80% { transform: translate(1px, 1px); }</p>
+<p class="p1"><span class="Apple-converted-space">      </span>100% { transform: translate(0); }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>@keyframes glitchBottom {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>0% { transform: translate(0); }</p>
+<p class="p1"><span class="Apple-converted-space">      </span>20% { transform: translate(2px, 2px); }</p>
+<p class="p1"><span class="Apple-converted-space">      </span>40% { transform: translate(4px, -2px); }</p>
+<p class="p1"><span class="Apple-converted-space">      </span>60% { transform: translate(-2px, 1px); }</p>
+<p class="p1"><span class="Apple-converted-space">      </span>80% { transform: translate(-1px, -1px); }</p>
+<p class="p1"><span class="Apple-converted-space">      </span>100% { transform: translate(0); }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>@keyframes flicker {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>0%, 100% { opacity: 1; }</p>
+<p class="p1"><span class="Apple-converted-space">      </span>92% { opacity: 1; }</p>
+<p class="p1"><span class="Apple-converted-space">      </span>93% { opacity: 0.4; }</p>
+<p class="p1"><span class="Apple-converted-space">      </span>94% { opacity: 1; }</p>
+<p class="p1"><span class="Apple-converted-space">      </span>96% { opacity: 0.7; }</p>
+<p class="p1"><span class="Apple-converted-space">      </span>97% { opacity: 1; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="glitch"&gt;3005&lt;/div&gt;</p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
